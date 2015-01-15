@@ -1,0 +1,12 @@
+Source: ros-indigo-pm-mcc
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-polygon-matcher, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: http://wiki.ros.org/pm_mcc
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pm-mcc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-polygon-matcher, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The pm_mcc package A polygon matcher based on the Multi-scale Convexity Concavity (MCC) representation. Based on article Adamek, T. and O'Connor, N.E., A multiscale representation method for nonrigid shapes with a single closed contour, in IEEE Transactions on Circuits and Systems for Video Technology, 2004.
