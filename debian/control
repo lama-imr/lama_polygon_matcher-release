@@ -1,0 +1,12 @@
+Source: ros-indigo-pm-fourier
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), libgsl0-dev, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-polygon-matcher, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: http://wiki.ros.org/pm_fourier
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pm-fourier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgsl0-dev, ros-indigo-geometry-msgs, ros-indigo-lama-common, ros-indigo-polygon-matcher, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The pm_fourier package
